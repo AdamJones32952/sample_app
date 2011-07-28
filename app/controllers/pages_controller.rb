@@ -14,4 +14,9 @@ class PagesController < ApplicationController
 	@testdata = "Here I would extole my own virutes at great length."
   end
 
+    def help
+	@title = "Help"
+	@testdata = "Here I would give some kind of info on how to report bugs or what-not."
+  end
+  
 end
